@@ -142,6 +142,48 @@ body {
 
 /* ========= home section design end =========  */
 
+/* ========= service section design start =========  */
+
+.serviceSection{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.serviceSection .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.serviceCard{
+  text-align: center;
+}
+.serviceCard h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+color: #131848;
+margin-top: 25px;
+}
+.serviceCard p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #8F91A2;
+  margin-top: 10px;
+}
+
+/* ========= service section design end =========  */
+
+
+
+
+
+
+
 @media screen and (max-width: 991px) {
   .container {
     padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -183,5 +225,8 @@ body {
     width: 94%;
     margin: 0 auto;
     width: 75%;
+  }
+  .serviceCard{
+    padding: 15px;  
   }
 }
