@@ -142,21 +142,21 @@ body {
 
 /* ========= home section design end =========  */
 
-/* ========= service section design start =========  */
+/* ========= about section design start =========  */
 
-.serviceSection{
+.aboutSection{
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.serviceSection .row{
+.aboutSection .row{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.serviceCard{
+.aboutCard{
   text-align: center;
 }
-.serviceCard h3{
+.aboutCard h3{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -165,7 +165,7 @@ line-height: 20px;
 color: #131848;
 margin-top: 25px;
 }
-.serviceCard p{
+.aboutCard p{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -176,7 +176,7 @@ margin-top: 25px;
   margin-top: 10px;
 }
 
-/* ========= service section design end =========  */
+/* ========= about section design end =========  */
 
 
 
@@ -226,7 +226,7 @@ margin-top: 25px;
     margin: 0 auto;
     width: 75%;
   }
-  .serviceCard{
+  .aboutCard{
     padding: 15px;  
   }
 }
