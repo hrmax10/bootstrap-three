@@ -144,45 +144,85 @@ body {
 
 /* ========= about section design start =========  */
 
-.aboutSection{
+.aboutSection {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.aboutSection .row{
+.aboutSection .row {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.aboutCard{
+.aboutCard {
   text-align: center;
 }
-.aboutCard h3{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 20px;
-color: #131848;
-margin-top: 25px;
+.aboutCard h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #131848;
+  margin-top: 25px;
 }
-.aboutCard p{
-  font-family: 'Poppins';
+.aboutCard p {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
   text-align: center;
-  color: #8F91A2;
+  color: #8f91a2;
   margin-top: 10px;
 }
 
 /* ========= about section design end =========  */
 
+/* ========= on section design start =========  */
 
+.onSection {
+  width: 100%;
+  padding: 70px 0px;
+  background: rgba(236, 241, 244, 0.41);
+}
 
+.onText {
+  margin-top: -27px;
+}
+.onText h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #050931;
+  margin-bottom: 20px;
+}
+.onText p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8f91a2;
+}
+.onReadMore {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #373b61;
+  margin-left: -11px;
+}
 
+/* ========= on section design end =========  */
 
-
+@media screen and (max-width: 1199px) {
+  .onImg img {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 991px) {
   .container {
@@ -192,7 +232,7 @@ margin-top: 25px;
   .nav-link {
     margin-right: 0rem !important;
   }
-  .homeSection{
+  .homeSection {
     min-height: 96vh;
     padding-bottom: 20px;
   }
@@ -213,7 +253,7 @@ margin-top: 25px;
   .heroTexts p {
     font-size: 13px;
   }
-  
+
   .homeSection .heroImg {
     width: 100%;
     text-align: center;
@@ -226,7 +266,16 @@ margin-top: 25px;
     margin: 0 auto;
     width: 75%;
   }
-  .aboutCard{
-    padding: 15px;  
+  .aboutCard {
+    padding: 15px;
+  }
+  .onText h3 {
+    font-size: 23px;
+  }
+  .onText p {
+    font-size: 14px;
+  }
+  .onReadMore {
+    font-size: 15px;
   }
 }
