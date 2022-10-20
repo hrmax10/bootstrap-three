@@ -5,8 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
 }
 
 /* ========= global modification =========  */
@@ -20,36 +22,37 @@ body {
 .navbar {
   background: #ecf1f4 !important;
 }
+
 .nav-bar .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-link {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #636972;
   margin-right: 1.3rem;
 }
+
 .nav-link.active,
 .nav-link:hover {
   color: #55bc7e !important;
 }
+
 .NavButton {
   background: #49a26c;
   box-shadow: 0px 10px 25px rgba(59, 146, 94, 0.15);
   border-radius: 4px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
   margin-left: 1rem;
 }
+
 /* ========= navbar section design end =========  */
 /* ========= home section design start =========  */
 
@@ -62,8 +65,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-.homeSection .container {
-}
+
+.homeSection .container {}
+
 .homeSection .dots,
 .perfectSection .dots {
   position: absolute;
@@ -71,6 +75,7 @@ body {
   left: 0;
   width: 9%;
 }
+
 .dots img {
   width: 100%;
 }
@@ -78,11 +83,10 @@ body {
 .heroTexts {
   width: 54%;
 }
+
 .heroTexts span {
   background: #d3e8e1;
   border-radius: 23px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 20px;
@@ -91,9 +95,8 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .heroTexts h1 {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 600;
   font-size: 45px;
   line-height: 50px;
@@ -101,42 +104,45 @@ body {
   color: #050931;
   margin-bottom: 20px;
 }
+
 .heroTexts p {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: #8f91a2;
   margin-bottom: 35px;
 }
+
 .homeSection .input-group {
   width: 440px;
   background: #ffffff;
   box-shadow: 0px 10px 25px rgba(70, 85, 103, 0.05);
   border-radius: 4px;
 }
+
 .homeSection .input-group .form-control {
   border: none;
   padding: 10px 20px;
 }
+
 .homeSection .input-group .subsBtn {
   background: #55bc7e;
   border-radius: 0px 4px 4px 0px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
 }
+
 .homeSection .input-group .subsBtn:hover {
   background: #256b41;
   color: #ffffff;
 }
+
 .homeSection .heroImg {
   width: 46%;
 }
+
 .homeSection .heroImg img {
   width: 100%;
 }
@@ -149,26 +155,26 @@ body {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .aboutSection .row {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .aboutCard {
   text-align: center;
 }
+
 .aboutCard h3 {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
   color: #131848;
   margin-top: 25px;
 }
+
 .aboutCard p {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
@@ -189,7 +195,9 @@ body {
   background: rgba(236, 241, 244, 0.41);
   position: relative;
 }
-.onSection .dots , .strSection .dots {
+
+.onSection .dots,
+.strSection .dots {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -201,34 +209,29 @@ body {
 .strText {
   margin-top: -27px;
 }
+
 .onText h3,
-.perfectSection h3 ,
-.strSection h3{
-  font-family: "Poppins";
-  font-style: normal;
+.perfectSection h3,
+.strSection h3 {
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
   color: #050931;
   margin-bottom: 20px;
 }
+
 .onText p,
-.perfectText p ,
-.strSection p{
-  font-family: "Poppins";
-  font-style: normal;
+.perfectText p,
+.strSection p {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #8f91a2;
-
-  
 }
+
 .onReadMore,
 .perfectReadMore,
 .strReadMore {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -244,23 +247,22 @@ body {
   width: 100%;
   padding: 90px 0px;
 }
+
 .subsSection h2 {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
   color: #ffffff;
 }
+
 .subsSection p {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
   text-align: center;
   color: #eaebf5;
 }
+
 .subsSection .input-group {
   width: 50%;
   background: #ffffff;
@@ -268,20 +270,21 @@ body {
   border-radius: 4px;
   margin: 0 auto;
 }
+
 .subsSection .input-group .form-control {
   border: none;
   padding: 10px 20px;
 }
+
 .subsSection .input-group .subsBtn {
   background: #55bc7e;
   border-radius: 0px 4px 4px 0px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
 }
+
 .subsSection .input-group .subsBtn:hover {
   background: #256b41;
   color: #ffffff;
@@ -292,6 +295,7 @@ body {
 .perfectSection {
   background: #fff;
 }
+
 /* ========= perfect section design end =========  */
 /* ========= service section start end =========  */
 .serviceSection {
@@ -300,9 +304,8 @@ body {
   min-height: 100vh;
   padding: 3% 0;
 }
+
 .serviceSection header h1 {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
@@ -310,6 +313,7 @@ body {
   color: #050931;
   margin-top: -1%;
 }
+
 .serviceSection .card {
   padding-bottom: 5%;
   margin-top: 10%;
@@ -318,12 +322,12 @@ body {
   border: none;
   transition: all 0.4s ease;
 }
+
 .serviceSection .card:hover {
   transform: scale(1.1) translateY(-5px);
 }
+
 .serviceSection .card .card-title {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
@@ -331,9 +335,8 @@ body {
   color: #3c3f60;
   margin-top: 15px;
 }
+
 .serviceSection .card .card-text {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 28px;
@@ -344,68 +347,150 @@ body {
 /* ========= service section design end =========  */
 /* ========= strategic section design start =========  */
 
-  .strSection{
-    background: #fff;
-  }
-  .strItem{
-    display: flex;
-    
-  }
-  .strInfo{
-    margin-left: 10px;
-  }
-  .strInfo h4{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 20px;
-color: #3C3F60;
-  }
-.strInfo p{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 28px;
-color: #8F91A2;
-  }
+.strSection {
+  background: #fff;
+}
+
+.strItem {
+  display: flex;
+}
+
+.strInfo {
+  margin-left: 10px;
+}
+
+.strInfo h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #3c3f60;
+}
+
+.strInfo p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #8f91a2;
+}
 
 /* ========= strategic section design end =========  */
+/* ========= subsSecond section design start =========  */
+.subsSecondBtn {
+  background: #55bc7e;
+  box-shadow: 0px 10px 25px rgba(59, 146, 94, 0.15);
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
 
+.subsSecondBtn:hover {
+  background: #215a38;
+  color: #ffffff;
+}
 
+/* ========= subsSecond section design end =========  */
+/* ========= pricing section design start =========  */
+.pricingSection {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
 
+.pricingSection .dotsOne {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 9%;
+}
 
+.pricingSection .dotsTwo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 9%;
+}
 
+.pricingSection .dotsTwo img,
+.pricingSection .dotsOne img {
+  width: 100%;
+}
 
+.pricingSection header h1 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #050931;
+  margin-top: -1%;
+}
 
+.pricingSection .card {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(36, 53, 63, 0.06);
+  border: none;
+  padding: 55px 0px 45px 0px;
+  margin-top: 10px;
+}
 
+.pricingSection .card-header p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #55bc7e;
+}
 
+.pricingSection .card-header h2 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 45px;
+  color: #050931;
+  margin-bottom: 30px;
+}
 
+.pricingSection .card ul li {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 45px;
+  color: #4b4e70;
+  padding: 0px 0;
+  margin-bottom: 5px;
+}
 
+.pricingSection .card ul {
+  margin: 11px 0;
+}
 
+.priceBtn {
+  background: #55bc7e;
+  box-shadow: 0px 10px 25px rgba(59, 146, 94, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 15px;
+}
 
+.pricingSection .card-header {
+  background: #fff;
+}
 
+.pricingSection .list-group-item {
+  border: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ========= pricing section design end =========  */
 
 @media screen and (max-width: 1199px) {
+
   .onImg img,
   .perfectImg img,
   .strImg img {
@@ -418,27 +503,34 @@ color: #8F91A2;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
+
   .nav-link {
     margin-right: 0rem !important;
   }
+
   .homeSection {
     min-height: 96vh;
     padding-bottom: 20px;
   }
+
   .homeSection .container {
     flex-direction: column;
   }
+
   .homeSection .heroTexts {
     width: 100%;
     text-align: center;
   }
+
   .heroTexts span {
     font-size: 10px;
   }
+
   .heroTexts h1 {
     font-size: 38px;
     letter-spacing: 0px;
   }
+
   .heroTexts p {
     font-size: 13px;
   }
@@ -447,68 +539,83 @@ color: #8F91A2;
     width: 100%;
     text-align: center;
   }
+
   .homeSection .heroImg img {
     width: 71%;
   }
+
   .input-group {
     width: 94%;
     margin: 0 auto;
     width: 75%;
   }
+
   .aboutCard {
     padding: 15px;
   }
+
   .onText h3,
   .perfectText h3,
   .strText h3 {
     font-size: 23px;
   }
+
   .onText p,
-  .perfectText p ,
-  .strText p{
+  .perfectText p,
+  .strText p {
     font-size: 14px;
   }
+
   .onReadMore,
   .perfectReadMore,
   .strReadMore {
     font-size: 15px;
   }
-  .onText,
 
-.strText {
-  margin-top: 20px;
-}
+  .onText,
+  .strText {
+    margin-top: 20px;
+  }
+
   .subsSection .input-group exit {
     width: 60%;
   }
 }
+
 @media screen and (max-width: 768px) {
-  .heroTexts{
+  .heroTexts {
     margin-top: 0px;
   }
-  .heroImg{
+
+  .heroImg {
     margin-top: 15%;
   }
+
   .subsSection h2 {
     font-size: 16px;
     margin-bottom: 0px;
   }
+
   .subsSection p {
     font-size: 10px;
     line-height: initial;
   }
+
   .subsSection .input-group,
   .homeSection .input-group {
     width: 80% !important;
   }
+
   .serviceSection .card {
     padding-top: 5%;
   }
+
   .serviceSection .container {
     padding-bottom: 15px;
   }
 }
-@media screen and (max-width:576px){
+
+@media screen and (max-width: 576px) {
   .heroTexts {
     margin-top: -15%;
   }
