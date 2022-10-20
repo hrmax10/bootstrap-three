@@ -182,13 +182,14 @@ body {
 /* ========= on section design start =========  */
 
 .onSection,
-.perfectSection {
+.perfectSection,
+.strSection {
   width: 100%;
   padding: 70px 0px;
   background: rgba(236, 241, 244, 0.41);
   position: relative;
 }
-.onSection .dots {
+.onSection .dots , .strSection .dots {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -196,11 +197,13 @@ body {
 }
 
 .onText,
-.perfectText {
+.perfectText,
+.strText {
   margin-top: -27px;
 }
 .onText h3,
-.perfectSection h3 {
+.perfectSection h3 ,
+.strSection h3{
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -210,16 +213,20 @@ body {
   margin-bottom: 20px;
 }
 .onText p,
-.perfectText p {
+.perfectText p ,
+.strSection p{
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #8f91a2;
+
+  
 }
 .onReadMore,
-.perfectReadMore {
+.perfectReadMore,
+.strReadMore {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -335,10 +342,73 @@ body {
 }
 
 /* ========= service section design end =========  */
+/* ========= strategic section design start =========  */
+
+  .strSection{
+    background: #fff;
+  }
+  .strItem{
+    display: flex;
+    
+  }
+  .strInfo{
+    margin-left: 10px;
+  }
+  .strInfo h4{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #3C3F60;
+  }
+.strInfo p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #8F91A2;
+  }
+
+/* ========= strategic section design end =========  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1199px) {
   .onImg img,
-  .perfectImg img {
+  .perfectImg img,
+  .strImg img {
     width: 100%;
   }
 }
@@ -389,22 +459,36 @@ body {
     padding: 15px;
   }
   .onText h3,
-  .perfectText h3 {
+  .perfectText h3,
+  .strText h3 {
     font-size: 23px;
   }
   .onText p,
-  .perfectText p {
+  .perfectText p ,
+  .strText p{
     font-size: 14px;
   }
   .onReadMore,
-  .perfectReadMore {
+  .perfectReadMore,
+  .strReadMore {
     font-size: 15px;
   }
+  .onText,
+
+.strText {
+  margin-top: 20px;
+}
   .subsSection .input-group exit {
     width: 60%;
   }
 }
 @media screen and (max-width: 768px) {
+  .heroTexts{
+    margin-top: 0px;
+  }
+  .heroImg{
+    margin-top: 15%;
+  }
   .subsSection h2 {
     font-size: 16px;
     margin-bottom: 0px;
@@ -422,5 +506,10 @@ body {
   }
   .serviceSection .container {
     padding-bottom: 15px;
+  }
+}
+@media screen and (max-width:576px){
+  .heroTexts {
+    margin-top: -15%;
   }
 }
