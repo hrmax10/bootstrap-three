@@ -64,7 +64,8 @@ body {
 }
 .homeSection .container {
 }
-.dots {
+.homeSection .dots,
+.perfectSection .dots {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -180,16 +181,26 @@ body {
 
 /* ========= on section design start =========  */
 
-.onSection {
+.onSection,
+.perfectSection {
   width: 100%;
   padding: 70px 0px;
   background: rgba(236, 241, 244, 0.41);
+  position: relative;
+}
+.onSection .dots {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 9%;
 }
 
-.onText {
+.onText,
+.perfectText {
   margin-top: -27px;
 }
-.onText h3 {
+.onText h3,
+.perfectSection h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -198,7 +209,8 @@ body {
   color: #050931;
   margin-bottom: 20px;
 }
-.onText p {
+.onText p,
+.perfectText p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -206,7 +218,8 @@ body {
   line-height: 28px;
   color: #8f91a2;
 }
-.onReadMore {
+.onReadMore,
+.perfectReadMore {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -219,27 +232,27 @@ body {
 /* ========= on section design end =========  */
 /* ========= subscribe section design start =========  */
 
-.subsSection{
+.subsSection {
   background: #344763;
   width: 100%;
   padding: 90px 0px;
 }
-.subsSection h2{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 45px;
-color: #FFFFFF;
+.subsSection h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
 }
-.subsSection p{
-  font-family: 'Poppins';
+.subsSection p {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
   text-align: center;
-  color: #EAEBF5;
+  color: #eaebf5;
 }
 .subsSection .input-group {
   width: 50%;
@@ -270,7 +283,8 @@ color: #FFFFFF;
 /* ========= subscribe section design end =========  */
 
 @media screen and (max-width: 1199px) {
-  .onImg img {
+  .onImg img,
+  .perfectImg img {
     width: 100%;
   }
 }
@@ -320,29 +334,32 @@ color: #FFFFFF;
   .aboutCard {
     padding: 15px;
   }
-  .onText h3 {
+  .onText h3,
+  .perfectText h3 {
     font-size: 23px;
   }
-  .onText p {
+  .onText p,
+  .perfectText p {
     font-size: 14px;
   }
-  .onReadMore {
+  .onReadMore,
+  .perfectReadMoreg {
     font-size: 15px;
   }
   .subsSection .input-group {
     width: 60%;
   }
 }
-@media screen and (max-width:768px){
-  .subsSection h2{
+@media screen and (max-width: 768px) {
+  .subsSection h2 {
     font-size: 16px;
     margin-bottom: 0px;
   }
-  .subsSection p{
+  .subsSection p {
     font-size: 10px;
     line-height: initial;
   }
   .subsSection .input-group {
     width: 80%;
-}
+  }
 }
