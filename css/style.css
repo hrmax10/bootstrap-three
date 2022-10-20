@@ -281,6 +281,60 @@ body {
 }
 
 /* ========= subscribe section design end =========  */
+/* ========= perfect section design start =========  */
+.perfectSection {
+  background: #fff;
+}
+/* ========= perfect section design end =========  */
+/* ========= service section start end =========  */
+.serviceSection {
+  background: rgba(236, 241, 244, 0.41);
+  width: 100%;
+  min-height: 100vh;
+  padding: 3% 0;
+}
+.serviceSection header h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #050931;
+  margin-top: -1%;
+}
+.serviceSection .card {
+  padding-bottom: 5%;
+  margin-top: 10%;
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(36, 53, 63, 0.06);
+  border: none;
+  transition: all 0.4s ease;
+}
+.serviceSection .card:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+.serviceSection .card .card-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #3c3f60;
+  margin-top: 15px;
+}
+.serviceSection .card .card-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #8f91a2;
+}
+
+/* ========= service section design end =========  */
 
 @media screen and (max-width: 1199px) {
   .onImg img,
@@ -346,8 +400,8 @@ body {
   .perfectReadMore {
     font-size: 15px;
   }
-  .subsSection .input-group ,{
-    width: 60% ;
+  .subsSection .input-group exit {
+    width: 60%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -359,7 +413,14 @@ body {
     font-size: 10px;
     line-height: initial;
   }
-  .subsSection .input-group , .homeSection .input-group{
+  .subsSection .input-group,
+  .homeSection .input-group {
     width: 80% !important;
+  }
+  .serviceSection .card {
+    padding-top: 5%;
+  }
+  .serviceSection .container {
+    padding-bottom: 15px;
   }
 }
