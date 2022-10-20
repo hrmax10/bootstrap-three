@@ -28,6 +28,58 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+/* hamburger menu icon  start*/
+.navbar-toggler{
+  border: none;
+  
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.menu{
+  width: 40px;
+  height: 30px;
+  position: relative;display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.menu span{
+  width: 80%;
+  background-color: #3A3165;
+  height: 3px;
+  position: absolute;
+  transform: rotate(45deg);
+  transition: all 0.4s;
+  
+}
+.menu .lineOne{
+  width: 50%;
+  transform: rotate(45deg) translateY(-10px);
+
+}
+.menu .lineThree {
+  width: 50%;
+  transform: rotate(45deg) translateY(10px);
+}
+
+.open .lineOne{
+  width: 80%;
+  transform: rotate(323deg) translateY( -16px);
+  transform-origin: 100%;
+
+}
+.open .lineThree{
+  width: 80%;
+  transform: rotate(-323deg) translateY( -16px);
+  transform-origin: 100%;
+
+}
+/* hamburger menu icon  end*/
+
+
+
 
 .nav-link {
   font-weight: 400;
