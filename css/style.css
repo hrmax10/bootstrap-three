@@ -343,11 +343,11 @@ body {
     font-size: 14px;
   }
   .onReadMore,
-  .perfectReadMoreg {
+  .perfectReadMore {
     font-size: 15px;
   }
-  .subsSection .input-group {
-    width: 60%;
+  .subsSection .input-group ,{
+    width: 60% ;
   }
 }
 @media screen and (max-width: 768px) {
@@ -359,7 +359,7 @@ body {
     font-size: 10px;
     line-height: initial;
   }
-  .subsSection .input-group {
-    width: 80%;
+  .subsSection .input-group , .homeSection .input-group{
+    width: 80% !important;
   }
 }
