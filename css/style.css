@@ -28,13 +28,16 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 /* hamburger menu icon  start*/
 .navbar-toggler {
   border: none;
 }
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
+
 .menu {
   width: 40px;
   height: 30px;
@@ -44,6 +47,7 @@ body {
   justify-content: center;
   overflow: hidden;
 }
+
 .menu span {
   width: 80%;
   background-color: #3a3165;
@@ -52,10 +56,12 @@ body {
   transform: rotate(45deg);
   transition: all 0.4s;
 }
+
 .menu .lineOne {
   width: 50%;
   transform: rotate(45deg) translateY(-10px);
 }
+
 .menu .lineThree {
   width: 50%;
   transform: rotate(45deg) translateY(10px);
@@ -66,11 +72,13 @@ body {
   transform: rotate(323deg) translateY(-16px);
   transform-origin: 100%;
 }
+
 .open .lineThree {
   width: 80%;
   transform: rotate(-323deg) translateY(-16px);
   transform-origin: 100%;
 }
+
 /* hamburger menu icon  end*/
 
 .nav-link {
@@ -347,7 +355,8 @@ body {
   padding: 3% 0;
 }
 
-.serviceSection header h1 {
+.serviceSection header h1,
+.newsSection header h1 {
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
@@ -537,6 +546,7 @@ body {
   padding: 70px 0px;
   background: rgba(236, 241, 244, 0.41);
 }
+
 .clientsSection h2 {
   font-weight: 600;
   font-size: 30px;
@@ -545,15 +555,18 @@ body {
   color: #050931;
   margin-bottom: 45px;
 }
+
 .clientInfo {
   display: flex;
   flex-direction: column;
 }
+
 .clientImg {
   width: 90px;
   height: 90px;
   margin-bottom: 20px !important;
 }
+
 .clientInfo h4 {
   font-style: normal;
   font-weight: 500;
@@ -563,6 +576,7 @@ body {
   color: #131848;
   margin-bottom: 40px;
 }
+
 .clientInfo p {
   font-weight: 400;
   font-size: 16px;
@@ -570,9 +584,75 @@ body {
   text-align: center;
   color: #8f91a2;
 }
+
 /* ========= clients section design end =========  */
 
+/* ========= news section design start =========  */
+
+.newsSection {
+  width: 100%;
+  min-height: 90vh;
+}
+
+.newsSection header {
+  margin-bottom: 15px;
+}
+
+.newsSection .card {
+  border: none;
+  margin-bottom: 10%;
+  width: 90%;
+  height: 489px !important;
+}
+
+.newsSection .card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #131848;
+}
+
+.newsSection .card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8F91A2;
+
+}
+
+.newsSection a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #55BC7E;
+
+}
+
+/* ========= news section design end =========  */
+/* ========= footer section design start =========  */
+footer {
+
+  background: #344763;
+  padding: 15px;
+
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #DEE5F5;
+  margin: 0;
+}
+
+/* ========= footer section design end =========  */
+
+
+
+/* ========= media query section design  =========  */
+
 @media screen and (max-width: 1199px) {
+
   .onImg img,
   .perfectImg img,
   .strImg img {
@@ -694,6 +774,10 @@ body {
 
   .serviceSection .container {
     padding-bottom: 15px;
+  }
+
+  .newsSection .card {
+    height: initial !important;
   }
 }
 
